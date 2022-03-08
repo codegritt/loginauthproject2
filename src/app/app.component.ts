@@ -8,5 +8,6 @@ import { AuthService } from './auth.service';
 })
 export class AppComponent {
   title = 'loginauthproject2';
+  
   constructor(private _authService: AuthService){}
 }
