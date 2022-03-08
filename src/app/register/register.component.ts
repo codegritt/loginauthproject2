@@ -22,7 +22,7 @@ constructor(private _auth: AuthService){}
   }
 
   registerUser() {
-
+console.log(this.registerUserData);
   
     // this._auth.registerUser(this.registerUserData)
     // .subscribe(
